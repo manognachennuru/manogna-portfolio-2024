@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/manogna-portfolio-2024/static/css/main.d5cfe77b.css",
-    "main.js": "/manogna-portfolio-2024/static/js/main.548bef02.js",
-    "static/js/453.3dd2813d.chunk.js": "/manogna-portfolio-2024/static/js/453.3dd2813d.chunk.js",
+    "main.js": "/manogna-portfolio-2024/static/js/main.1d810ad1.js",
+    "static/js/453.1407b060.chunk.js": "/manogna-portfolio-2024/static/js/453.1407b060.chunk.js",
     "static/media/project-5.jpg": "/manogna-portfolio-2024/static/media/project-5.72106d2a5edd2351e75c.jpg",
     "static/media/project-6.jpg": "/manogna-portfolio-2024/static/media/project-6.54c372b7cea8a80c5f7a.jpg",
     "static/media/color-sharp.png": "/manogna-portfolio-2024/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -34,11 +34,11 @@
     "static/media/arrow2.svg": "/manogna-portfolio-2024/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/manogna-portfolio-2024/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.d5cfe77b.css.map": "/manogna-portfolio-2024/static/css/main.d5cfe77b.css.map",
-    "main.548bef02.js.map": "/manogna-portfolio-2024/static/js/main.548bef02.js.map",
-    "453.3dd2813d.chunk.js.map": "/manogna-portfolio-2024/static/js/453.3dd2813d.chunk.js.map"
+    "main.1d810ad1.js.map": "/manogna-portfolio-2024/static/js/main.1d810ad1.js.map",
+    "453.1407b060.chunk.js.map": "/manogna-portfolio-2024/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5cfe77b.css",
-    "static/js/main.548bef02.js"
+    "static/js/main.1d810ad1.js"
   ]
 }
