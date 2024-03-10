@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/manogna-portfolio-2024/static/css/main.d5cfe77b.css",
-    "main.js": "/manogna-portfolio-2024/static/js/main.1d810ad1.js",
+    "main.js": "/manogna-portfolio-2024/static/js/main.0a607737.js",
     "static/js/453.1407b060.chunk.js": "/manogna-portfolio-2024/static/js/453.1407b060.chunk.js",
     "static/media/project-5.jpg": "/manogna-portfolio-2024/static/media/project-5.72106d2a5edd2351e75c.jpg",
     "static/media/project-6.jpg": "/manogna-portfolio-2024/static/media/project-6.54c372b7cea8a80c5f7a.jpg",
     "static/media/color-sharp.png": "/manogna-portfolio-2024/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/manogna-portfolio-2024/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/profile-pic.png": "/manogna-portfolio-2024/static/media/profile-pic.acdd9a876f8d775a5e10.png",
     "static/media/company-project.jpg": "/manogna-portfolio-2024/static/media/company-project.e1fd305e49d274be17f7.jpg",
+    "static/media/girl-computer-2.PNG": "/manogna-portfolio-2024/static/media/girl-computer-2.2bfde36bc950c6aefd0f.PNG",
     "static/media/police-project.PNG": "/manogna-portfolio-2024/static/media/police-project.6cc1b5236ae08e38aa47.PNG",
-    "static/media/girl-computer.PNG": "/manogna-portfolio-2024/static/media/girl-computer.697eded3dee0159a455d.PNG",
     "static/media/banner-bg.png": "/manogna-portfolio-2024/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/covid-project.jpg": "/manogna-portfolio-2024/static/media/covid-project.c0f4731dd3aa136585c0.jpg",
     "static/media/header-img.svg": "/manogna-portfolio-2024/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
@@ -18,7 +19,7 @@
     "static/media/CentraNo2-Book.ttf": "/manogna-portfolio-2024/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/anime-project.jpg": "/manogna-portfolio-2024/static/media/anime-project.0ae96ae17a9b03653ca2.jpg",
     "static/media/contact-img.svg": "/manogna-portfolio-2024/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/Manogna Chennuru.png": "/manogna-portfolio-2024/static/media/Manogna Chennuru.5254a8f36776aed2f490.png",
+    "static/media/myname-4.png": "/manogna-portfolio-2024/static/media/myname-4.07345085225d36f7d0ee.png",
     "static/media/revicons.eot": "/manogna-portfolio-2024/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/manogna-portfolio-2024/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/manogna-portfolio-2024/static/media/revicons.e8746a624ed098489406.woff",
@@ -34,11 +35,11 @@
     "static/media/arrow2.svg": "/manogna-portfolio-2024/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/manogna-portfolio-2024/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.d5cfe77b.css.map": "/manogna-portfolio-2024/static/css/main.d5cfe77b.css.map",
-    "main.1d810ad1.js.map": "/manogna-portfolio-2024/static/js/main.1d810ad1.js.map",
+    "main.0a607737.js.map": "/manogna-portfolio-2024/static/js/main.0a607737.js.map",
     "453.1407b060.chunk.js.map": "/manogna-portfolio-2024/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5cfe77b.css",
-    "static/js/main.1d810ad1.js"
+    "static/js/main.0a607737.js"
   ]
 }
