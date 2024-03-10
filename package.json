@@ -1,5 +1,4 @@
 {
-  "homepage": "http://manognachennuru.github.io/manogna-portfolio-2024",
   "name": "manogna-portfolio-2024",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +20,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -b main -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
