@@ -8,7 +8,8 @@ import linkedIn from '../assets/img/nav-icon1.svg';
 import gitHub from '../assets/img/Github_white.svg';
 import leetcode from '../assets/img/leetcode.svg';
 import gmail from '../assets/img/Gmail_white.svg';
-import myname from '../assets/img/Manogna Chennuru.png'
+import myname from '../assets/img/myname-4.png'
+import profileImg from "../assets/img/profile-pic.png"
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
