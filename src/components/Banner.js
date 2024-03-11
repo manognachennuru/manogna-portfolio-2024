@@ -42,25 +42,32 @@ export const Banner = () => {
         }
     }
 
-    const toRotate = ["Software Developer", "Web Developer", "Spring' 24 Graduate Student"];
+    const toRotate = ["Software Developer", "Python Developer", "Spring' 24 Graduate Student"];
 
     return (
-        <section className = "banner" id = "home">
+        <section className = "banner" id = "about">
             <Container> 
                 <Row className="align-items-center">
-                    <Col xs = {12} md = {6} xl = {7}>
+                    <Col xs = {12} >
+                    {/* md = {6} xl = {7} */}
                         <span className="tagline">Welcome to my portfolio</span>
                         <h2>{`Hi, I'm Manogna Chennuru `}</h2>
-                        <h3><span className="wrap">{text}</span></h3>
-                        <p>
-                        A Computer Science student at UNC Charlotte. With previous work experience at Automatic Data Processing, a multinational company, I am actively seeking software developer roles. Proficient in programming languages like Java, Python, and JavaScript, along with my expertise in software development methodologies, I am enthusiastic about contributing to innovative projects and making a meaningful impact in the industry.
+                        {/* <h3><span className="wrap">{text}</span></h3> */}
+                        <br>
+                        </br><p>
+                        I am a Software Developer based in Charlotte, North Carolina, holding a Master's Degree in Computer Science from the University of North Carolina at Charlotte, and a Bachelor's Degree in Computer Science and Engineering from Sreenidhi Institute in India. With previous experience at Automatic Data Processing, a multinational corporation, I am actively pursuing software developer roles.
+                        </p> 
+                        <p> 
+                        Additionally, my tenure as a Teaching Assistant has enhanced my skills, particularly in Amazon Web Services. My project portfolio showcases a practical, user-centric approach to problem-solving. Proficient in programming languages such as Java, Python, and JavaScript, coupled with expertise in software development methodologies, I am keen on contributing to innovative projects and making a meaningful impact in the industry.
                         </p>
-                        <button onClick={() => console.log('connect')}> Let's Connect <ArrowRightCircle size = {25}/> </button>
+                        <button className='vvd' onClick={() => window.location.href = '#contact'}>
+                            <span>Let's Connect <ArrowRightCircle size = {25}/>  </span>
+                        </button>
                     </Col>
-                    <Col xs = {12} md = {6} xl = {5}>
+                    {/* <Col xs = {12} md = {6} xl = {5}>
                         <img src = {headerImg} alt = "header Img" ></img>
 
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </section>
