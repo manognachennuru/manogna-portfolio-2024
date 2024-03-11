@@ -234,7 +234,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-8.svg'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -379,9 +379,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 0 0;
   position: relative;
-  background-color: black;
+  /* background-color: black; */
 }
 .project h2 {
 	font-size: 45px;
@@ -505,7 +505,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
   padding: 60px 0 100px 0;
 }
 
@@ -546,7 +546,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************===================== Footer Css =====================************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  /* background-image: url('./assets/img/footer-bg.png'); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -569,16 +569,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*================ my dummy journey ==================*/
 
-.Journey {
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
+.experience-item {
+  border: 2px solid #ffffff; /* White border */
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Add some space between experience items */
+  border-radius: 15px; /* Rounded corners */
 }
 
-.Journey h2 {
+.journey {
+  padding: 0 0 50px 0;
+  position: relative;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 auto;
 }
+.journey h2 {
+  padding: 0 0 50px 0;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+/* Journey.css */
+.curved-img {
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px;
+}
+
+
 
 .experience-item {
   margin-bottom: 30px;
@@ -594,3 +610,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Adjust the styles as needed */
+.wrapper {
+  background-image: url('./assets/img/banner-8.svg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust according to your needs */
+}

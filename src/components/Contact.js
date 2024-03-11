@@ -14,9 +14,9 @@ export const Contact = () => {
   return (
   <section className="contact" id="contact">
   <Container>
-    <Row className="align-items-center">
-      <Col size={6} sm={4} classname = "contact-img">
-        <img src={myPic} alt="myPic"/>
+    <Row className="skill-bx align-items-center">
+      <Col size={6} sm={4} >
+        <img className = "curved-img" src={myPic} alt="myPic"/>
       </Col>
       
       <Col size={6} sm={6} className="text-center d-flex flex-column align-items-center">

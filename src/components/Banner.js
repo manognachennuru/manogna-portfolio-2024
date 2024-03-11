@@ -13,8 +13,9 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12}>
                         <span className="tagline">Welcome to my portfolio</span>
-                    
+                        <div>
                         <h2>{`Hi, I'm Manogna Chennuru `}</h2>
+                        </div>
                         <p>
                             I am a Software Developer based in Charlotte, North Carolina, holding a Master's Degree in Computer Science from the University of North Carolina at Charlotte, and a Bachelor's Degree in Computer Science and Engineering from Sreenidhi Institute in India. With previous experience at Automatic Data Processing, a multinational corporation, I am actively pursuing software developer roles.
                         </p>
