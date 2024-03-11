@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.487e18fe.css",
-    "main.js": "/static/js/main.8f34229f.js",
+    "main.js": "/static/js/main.40c2422f.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/project-5.jpg": "/static/media/project-5.72106d2a5edd2351e75c.jpg",
     "static/media/project-6.jpg": "/static/media/project-6.54c372b7cea8a80c5f7a.jpg",
     "static/media/my-pic-1.jpg": "/static/media/my-pic-1.37a7c4194dd2c3b0f87b.jpg",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/manogna_resume_uncc.pdf": "/static/media/manogna_resume_uncc.cbfa0ceaa6ad2d04431b.pdf",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/profile-pic.png": "/static/media/profile-pic.acdd9a876f8d775a5e10.png",
     "static/media/company-project.jpg": "/static/media/company-project.e1fd305e49d274be17f7.jpg",
-    "static/media/girl-computer-2.PNG": "/static/media/girl-computer-2.2bfde36bc950c6aefd0f.PNG",
     "static/media/police-project.PNG": "/static/media/police-project.6cc1b5236ae08e38aa47.PNG",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/covid-project.jpg": "/static/media/covid-project.c0f4731dd3aa136585c0.jpg",
-    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -39,11 +38,11 @@
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.487e18fe.css.map": "/static/css/main.487e18fe.css.map",
-    "main.8f34229f.js.map": "/static/js/main.8f34229f.js.map",
+    "main.40c2422f.js.map": "/static/js/main.40c2422f.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.487e18fe.css",
-    "static/js/main.8f34229f.js"
+    "static/js/main.40c2422f.js"
   ]
 }
