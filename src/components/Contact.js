@@ -1,18 +1,11 @@
-import { useState } from "react";
+
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
-import logo from "../assets/img/logo.svg";
 import linkedIn from "../assets/img/nav-icon1.svg";
 import instagram from "../assets/img/nav-icon3.svg";
-import facebook from "../assets/img/nav-icon2.svg";
 import gitHub from '../assets/img/Github_white.svg';
 import leetcode from '../assets/img/leetcode.svg';
 import gmail from '../assets/img/Gmail_white.svg';
 import myPic from "../assets/img/my-pic-1.jpg";
-import myPic2 from "../assets/img/my-pic-2.jpg";
-import myPic3 from "../assets/img/my-pic-3.jpg";
-import myPic4 from "../assets/img/my-pic-4.jpg";
-import myPic5 from "../assets/img/my-pic-5.jpg";
 
 export const Contact = () => {
   return (

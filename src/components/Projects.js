@@ -5,10 +5,7 @@ import animeProject from "../assets/img/anime-project.jpg";
 import covidProject from "../assets/img/covid-project.jpg";
 import companyProject from "../assets/img/company-project.jpg";
 import policeProject from "../assets/img/police-project.PNG";
-import project5 from '../assets/img/project-5.jpg'
-import project6 from '../assets/img/project-6.jpg'
 
-import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
 
@@ -66,7 +63,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="background-image-right" src={colorSharp2}></img> */}
+      
     </section>
   )
 }
