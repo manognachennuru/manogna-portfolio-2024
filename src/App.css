@@ -243,14 +243,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
+  background: url('./assets/img/banner-10.svg');
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  
 }
-.banner h1 {
-  font-size: 65px;
+.banner h4 {
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -258,11 +260,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+
 }
 .banner button {
   color: #fff;
@@ -300,6 +303,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+.justified-paragraph {
+  text-align: justify ;
+}
 
 /************ Skills Css ************/
 .skill {
@@ -341,6 +347,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.category-button {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.category-button.open {
+  font-weight: bold; /* Example style for when category is open */
+}
+
+.category-content {
+  width: 100%;
+  text-align: left;
+}
+
+
+
+
 /**========= my dummy code to add progress bars for skills ===================**/
 
 /* .progress-bar {
@@ -352,16 +381,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background: linear-gradient(to right, rgba(223, 25, 144), rgba(162, 96, 170)) !important;
 }
 .column-box {
+  background: url('./assets/img/banner-8.svg');
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
 }
 .skill-box {
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
+    background-color: #121212;
 }
 .skill-content {
     display: flex;
@@ -370,9 +401,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-name {
     text-align: left; /* Align text to the left */
+    
 }
 .percentage-label {
     text-align: right; /* Align text to the right */
+}
+
+
+/*================ my dummy journey ==================*/
+
+.experience-item {
+  border: 2px solid #ffffff; /* White border */
+  padding: 15px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Add some space between experience items */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.experience-item img {
+  max-width: 100%;
+
+}
+
+@media (min-width: 576px) {
+  .experience-item {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.journey {
+  padding: 0 0 50px 0;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+.journey h2 {
+  padding: 0 0 50px 0;
+	font-size: 45px;
+	font-weight: 700;
+}
+.journey li{
+  text-align: left;
+  justify-content: center;
+}
+
+/*======================= Journey ========================*/
+.curved-img {
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.experience-item p {
+  margin-bottom: 10px;
 }
 
   
@@ -387,6 +480,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  padding: 0 0 50px 0;
 }
 .project p {
   color: #B8B8B8;
@@ -397,14 +491,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
-.project .nav.nav-pills {
+/* .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
-}
-.project .nav.nav-pills .nav-item {
+/* } */
+/* .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
 .project .nav.nav-pills .nav-link {
@@ -449,14 +543,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
-}
+} */
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-}
-.proj-imgbx::before {
+} 
+/* .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
@@ -493,15 +587,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
-}
-.background-image-right {
+} */
+/* .background-image-right {
   top: 20%;
   position: absolute;
   bottom: 0;
   width: 35%;
   right: 0;
   z-index: -4;
-}
+} */
 
 /************ contact Css ************/
 .contact {
@@ -512,10 +606,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*======== my dummy contact css=============*/
 /* Add this to your CSS file */
 /* Add new CSS classes here */
-.logo.larger-logo {
-    /* Make the logo slightly larger */
-    width: 80px; /* Adjust the size as needed */
-  }
+
   
   .social-icon.vertical-icons {
     /* Arrange icons vertically */
@@ -567,51 +658,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 50px;
 }
 
-/*================ my dummy journey ==================*/
-
-.experience-item {
-  border: 2px solid #ffffff; /* White border */
-  padding: 10px; /* Adjust padding as needed */
-  margin-bottom: 20px; /* Add some space between experience items */
-  border-radius: 15px; /* Rounded corners */
-}
-
-.journey {
-  padding: 0 0 50px 0;
-  position: relative;
-  text-align: center;
-  margin: 0 auto;
-}
-.journey h2 {
-  padding: 0 0 50px 0;
-	font-size: 45px;
-	font-weight: 700;
-}
-
-/* Journey.css */
-.curved-img {
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 15px;
-}
-
-
-
-.experience-item {
-  margin-bottom: 30px;
-}
-
-.experience-item h3 {
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-
-.experience-item p {
-  margin-bottom: 10px;
-}
-
 /* Adjust the styles as needed */
 .wrapper {
   background-image: url('./assets/img/banner-8.svg');
   background-repeat: no-repeat;
   background-size: cover; /* Adjust according to your needs */
+  /* opacity: 0.5; */
 }

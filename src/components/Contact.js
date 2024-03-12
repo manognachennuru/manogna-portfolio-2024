@@ -9,16 +9,34 @@ import gitHub from '../assets/img/Github_white.svg';
 import leetcode from '../assets/img/leetcode.svg';
 import gmail from '../assets/img/Gmail_white.svg';
 import myPic from "../assets/img/my-pic-1.jpg";
+import myPic2 from "../assets/img/my-pic-2.jpg";
+import myPic3 from "../assets/img/my-pic-3.jpg";
+import myPic4 from "../assets/img/my-pic-4.jpg";
+import myPic5 from "../assets/img/my-pic-5.jpg";
 
 export const Contact = () => {
   return (
   <section className="contact" id="contact">
   <Container>
     <Row className="skill-bx align-items-center">
-      <Col size={6} sm={4} >
-        <img className = "curved-img" src={myPic} alt="myPic"/>
+          <Col size={6} sm={4} className="image-collage">
+        <div className="image-container">
+          <img className="curved-img" src={myPic} alt="myPic1" />
+        </div>
+        {/* <div className="image-container">
+          <img className="curved-img" src={myPic2} alt="myPic2" />
+        </div>
+        <div className="image-container">
+          <img className="curved-img" src={myPic3} alt="myPic3" />
+        </div>
+        <div className="image-container">
+          <img className="curved-img" src={myPic4} alt="myPic4" />
+        </div>
+        <div className="image-container">
+          <img className="curved-img" src={myPic5} alt="myPic5" />
+        </div> */}
       </Col>
-      
+
       <Col size={6} sm={6} className="text-center d-flex flex-column align-items-center">
         <div>
         <h2> Social Profiles </h2>
@@ -32,7 +50,7 @@ export const Contact = () => {
             </div>
             <div className="icon-label-and-icon">
               <div className="icon-label"> Gmail </div>
-              <a href="#"><img src={gmail} alt="" /></a>
+              <a href="mailto:manognachennuru125@gmail.com"><img src={gmail} alt="" /></a>
             </div>
             <div className="icon-label-and-icon">
               <div className="icon-label"> GitHub </div>
@@ -52,7 +70,5 @@ export const Contact = () => {
     </Row>
   </Container>
 </section>
-
-
   )
 }

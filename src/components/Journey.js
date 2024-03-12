@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import adpLogo from "../assets/img/adp-logo-2.PNG"
 import uncLogo from "../assets/img/uncc-logo.PNG"
+import oneit from '../assets/img/one-it-logo.PNG'
 
 export const Journey = () => {
   return (
@@ -15,11 +16,11 @@ export const Journey = () => {
             <div className="work-experience experience-box">
               <div className="experience-item">
                 <Row className="align-items-center">
-                  <Col xs={3} className="text-center">
+                  <Col xs={12} sm={3} className="text-center">
                     <img src={adpLogo} alt="ADP Logo" className="curved-img" />
                   </Col>
-                  <Col xs={9}>
-                    <h3>Software Engineer</h3>
+                  <Col xs={12} sm={9}>
+                    <h3>Site Reliability Engineer</h3>
                     <p>Automatic Data Processing (ADP), Hyderabad, India</p>
                     <ul>
                       <li>Worked as a Site Reliability Engineer (SRE) at ADP, contributing to the maintenance and optimization of the ADP VANTAGE product.</li>
@@ -32,12 +33,12 @@ export const Journey = () => {
               </div>
               <div className="experience-item">
                 <Row className="align-items-center">
-                  <Col xs={3} className="text-center">
+                  <Col xs={12} sm={3} className="text-center">
                     <img src={uncLogo} alt="UNC Logo" className="curved-img" />
                   </Col>
-                  <Col xs={9}>
-                    <h3>Teaching Assistant</h3>
-                    <p>UNC Charlotte</p>
+                  <Col xs={12} sm={9}>
+                    <h3>Teaching Assistant (Part time)</h3>
+                    <p>UNC Charlotte, NC, USA</p>
                     <p>Course ITCS 6100 - Big Data Analytics for Competitive Advantage under: Dr. Pamela Thompson.</p>
                     <div>
                       <ul>
@@ -53,10 +54,24 @@ export const Journey = () => {
                   </Col>
                 </Row>
               </div>
+              <div className="experience-item">
+                <Row className="align-items-center">
+                  <Col xs={12} sm={3} className="text-center">
+                    <img src={oneit} alt="oneit" className="curved-img" />
+                  </Col>
+                  <Col xs={12} sm={9}>
+                    <h3>Desktop support technician (Part time)</h3>
+                    <p>UNC Charlotte OneIT office, Charlotte, NC, USA</p>
+                    <ul>
+                      <li>Effectively resolved software-related issues across the campus, ensuring the resolution of reported tickets on the OneIT website. </li>
+                      <li>Managed the installation, setup, and configuration of newly acquired devices within the campus.</li>
+                    </ul>
+                  </Col>
+                </Row>
+              </div>
             </div>
           </Col>
         </Row>
-        
       </Container>
     </section>
   );

@@ -1,3 +1,4 @@
+
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import animeProject from "../assets/img/anime-project.jpg";
@@ -24,7 +25,7 @@ export const Projects = () => {
     },
     {
       title: "Company Collaboration web app",
-      description: "JavaScript, Angular, REST APIs, Node JS, MySQL, AWS",
+      description: "Techstack: JavaScript, Angular, REST APIs, Node JS, MySQL, AWS",
       imgUrl: companyProject,
     },
     {
@@ -32,16 +33,16 @@ export const Projects = () => {
       description: "Techstack: Tableau, Data Visualization, Data Analysis, Visual Analytics",
       imgUrl: policeProject,
     },
-    {
-      title: "Project 5",
-      description: "tech stack",
-      imgUrl: project6,
-    },
-    {
-      title: "project 6",
-      description: "tech stack",
-      imgUrl: project5,
-    },
+    // {
+    //   title: "Project 5",
+    //   description: "tech stack",
+    //   imgUrl: project6,
+    // },
+    // {
+    //   title: "project 6",
+    //   description: "tech stack",
+    //   imgUrl: project5,
+    // },
   ];
 
   return (
@@ -65,7 +66,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
   )
 }
