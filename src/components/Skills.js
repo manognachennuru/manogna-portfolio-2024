@@ -8,9 +8,8 @@ export const Skills = () => {
         {
             title: 'Programming Languages',
             skills: [
-                { name: 'Python' },
-                { name: 'Go Lang' },
                 { name: 'Java' },
+                { name: 'Python' },
                 { name: 'HTML, CSS, JavaScript, Typescript' },
                 { name: 'React JS, Angular JS' },
                 { name: 'Node.js, Spring Boot, REST APIs, Postman' }
